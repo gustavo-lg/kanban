@@ -128,8 +128,8 @@ export default function TaskCard({ task, onDelete }) {
           </Grid>
           <Grid xs={6} className={styles.status}>
             {diferencaHoras > 1 && diferencaMinutos >= 0 ? <Button variant="contained" color="success">EM DIA</Button> : null}
-            {diferencaHoras === 1 && diferencaMinutos > 0 ? <Button variant="contained" color="warning">ATENÇÃO</Button> : null}
-            {diferencaHoras <= 0 || diferencaMinutos <= 0 ? <Button variant="contained" color="error">EM ATRASO</Button> : null}
+            {diferencaHoras === 0 && diferencaMinutos > 0 && diferencaMinutos < 59 ? <Button variant="contained" color="warning">ATENÇÃO</Button> : null}
+            {diferencaHoras < 0 || diferencaMinutos < 0 ? <Button variant="contained" color="error">EM ATRASO</Button> : null}
           </Grid>
         </Grid>
         <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
