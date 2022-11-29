@@ -31,7 +31,6 @@ const Draggable = dynamic(
   { ssr: false },
 );
 
-
 export default function Kanban() {
   
   const [columns, setColumns] = useState({

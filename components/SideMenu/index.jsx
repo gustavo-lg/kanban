@@ -112,7 +112,6 @@ export default function SideMenu() {
             ...(open && { display: 'none' }),
           }}
         >
-
           <MenuIcon />
         </IconButton>
         <IconButton
