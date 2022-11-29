@@ -127,7 +127,7 @@ export default function TaskCard({ task, onDelete }) {
             </LocalizationProvider>
           </Grid>
           <Grid xs={6} className={styles.status}>
-            {diferencaHoras > 1 && diferencaMinutos >= 0 ? <Button variant="contained" color="success">EM DIA</Button> : null}
+            {diferencaHoras >= 1 ? <Button variant="contained" color="success">EM DIA</Button> : null}
             {diferencaHoras === 0 && diferencaMinutos > 0 && diferencaMinutos < 59 ? <Button variant="contained" color="warning">ATENÇÃO</Button> : null}
             {diferencaHoras < 0 || diferencaMinutos < 0 ? <Button variant="contained" color="error">EM ATRASO</Button> : null}
           </Grid>
