@@ -1,0 +1,76 @@
+.kanban{
+    display: flex;
+    height: 100%;
+    margin-left: calc(64px + 5px) !important;
+}
+
+@media (max-width: 600px){
+    .kanban{
+        display: grid;
+        height: 100%;
+        margin-left: calc(64px + 10px) !important;
+    }
+}
+
+.columnHeader{
+    color: white;
+    background: #88c58c;
+    padding: 10px 15px;
+    font-weight: 500;
+    border-top-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    position: relative;
+    top: 10px;
+    display: flex;
+    overflow: hidden;
+    white-space: nowrap;
+    
+}
+.columnHeader > div{
+    width: -webkit-fill-available;
+}
+
+.columnItems{
+    background: white;
+    border-radius: 99px;
+    color: #88c58c;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    font-size: 13.5px;
+    position: relative;
+    font-size: 13.5px;
+    text-align-last: center;
+    top: 2px;
+}
+
+.columnName{
+    margin: 0;
+}
+
+.addCard {
+    color: #fff;
+    border-radius: 99px;
+    margin-right: 2px;
+    font-size: 40px;
+    margin: 20px 0;
+    background: #dc0093;
+    bottom: 130px;
+    position: fixed;
+    left: 5px;
+    z-index: 9999;
+}
+
+.modal {
+    overflow-y: auto;
+    border-radius: 4px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 350px;
+    background: white;
+    padding: 10px;
+    border-radius: 4px;
+    max-width: 530px;
+}

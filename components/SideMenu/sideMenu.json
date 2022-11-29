@@ -1,0 +1,30 @@
+[
+    {
+        "text": "Layout",
+        "icon": "ViewQuiltRoundedIcon"
+    },
+    {
+        "text": "Notificações",
+        "icon": "NotificationsOutlinedIcon"
+    },
+    {
+        "text": "Agenda",
+        "icon": "DateRangeIcon"
+    },
+    {
+        "text": "Objetivos",
+        "icon": "AdjustIcon"
+    },
+    {
+        "text": "Metricas",
+        "icon": "AssessmentOutlinedIcon"
+    },
+    {
+        "text": "Adicionar coluna",
+        "icon": "LibraryAddIcon"
+    },
+    {
+        "text": "Configurações",
+        "icon": "SettingsIcon"
+    }
+]

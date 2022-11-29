@@ -1,0 +1,47 @@
+.header {
+    display: contents !important;
+    margin-right: calc(64px + 1px) !important;
+}
+
+.body>div {
+    background: #88c58c !important;
+}
+
+
+.btn {
+    padding: 0px !important;
+    margin-right: auto;
+    margin-left: auto;
+    margin: 10px 0;
+    border-radius: 0px;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    align-self: center;
+    margin: 10px;
+    background-color: white !important;
+    color: #88c58c !important;
+}
+
+.addCard {
+    color: #dc0093;
+    border-radius: 99px;
+    margin-right: 2px;
+    font-size: 40px;
+    margin: 20px 0;
+}
+
+.modal {
+    overflow-y: auto;
+    border-radius: 4px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 350px;
+    background: white;
+    padding: 10px;
+    border-radius: 4px;
+}

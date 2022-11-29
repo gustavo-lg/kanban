@@ -1,0 +1,39 @@
+.formTitle{
+    text-align-last: center !important;
+    margin: 8px 0;
+}
+
+.descricao{
+    color: #666;
+    resize: none;
+    border: 1px solid #c4c4c4;
+    min-height: 125px;
+    border-radius: 4px;
+    background: transparent;
+    padding: 13px;
+    font-size: 1rem;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    margin: 7px 0;
+    
+}
+.descricao:focus-visible {
+    outline: none !important;
+}
+.descricao::placeholder{
+    color: #666  !important;
+    font-size: 1rem;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+}
+
+.formControl{
+    margin: 8px 0;
+}
+
+.formBtn{
+    background: #88c58c;
+    font-weight: 500;
+}
+
+.formBtn:hover{
+    background: #639e67;
+}

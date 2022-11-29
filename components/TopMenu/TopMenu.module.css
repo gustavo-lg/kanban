@@ -1,0 +1,56 @@
+.navbar{
+    justify-content: center;
+    height: 100%;
+    margin-left: calc(64px + 5px) !important;
+    width: inherit;
+    position: relative;
+    top: -8px;
+    background: #fff;
+    color: #39513a;
+    border-left: 20px solid #88c58c;
+    border-bottom: 2px solid #88c58c;
+}
+
+@media (max-width: 600px){
+    .navbar{
+        width: min-content;
+    }
+}
+
+.searchBar{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    margin: 0 30px;
+    max-width: 500px;
+}
+
+.filtrosBtn{
+    color: #39513a;
+    background: #88c58c;
+}
+
+.filtrosBtn:hover{
+    color: #fff;
+    background: #609764;
+}
+@media (max-width: 600px){
+    .filtrosBtn{
+        font-size: 0px;
+    }
+    .filtrosBtn > span{
+        margin: 0px;
+    }
+    .fullscreenBtn{
+        display: none;
+    }
+}
+.notification{
+    margin: 0 20px;
+}
+
+.notification svg,
+.fullscreenBtn svg{
+    font-size: 30px;
+}
+
+
+
